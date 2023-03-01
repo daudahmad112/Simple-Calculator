@@ -320,7 +320,8 @@ sinButton.onclick = function() {
     res.innerHTML = result;
 };
 // done
-	
+document.querySelector('[data-number="sin"]').addEventListener('click', sin);
+
 	
 	
     window.onclick = function(e){
