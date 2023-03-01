@@ -310,6 +310,19 @@ function clickFunc(){
         }
     };
 
+//adding sin code here Daud
+var sinButton = document.getElementById("sin");
+sinButton.onclick = function() {
+    var exp = express.innerHTML;
+    var resVal = res.innerHTML;
+    var result = Math.sin(eval(exp));
+    express.innerHTML += "sin(" + resVal + ")";
+    res.innerHTML = result;
+};
+// done
+	
+	
+	
     window.onclick = function(e){
         var e = e || window.event;
         var target = e.target.className || e.target.nodeName;
